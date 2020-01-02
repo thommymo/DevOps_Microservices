@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/thommymo/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/thommymo/DevOps_Microservices)
 
 ## Project Overview
 
@@ -41,5 +41,3 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 - Setup and Configure Kubernetes locally
 - Create Flask app in Container
 - Run via kubectl
-
-[![CircleCI](https://circleci.com/gh/thommymo/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/thommymo/DevOps_Microservices)
