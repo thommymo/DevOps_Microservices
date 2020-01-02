@@ -5,11 +5,16 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=thomsmoser/housing-prices:latest
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
 
 # Step 3:
 # Push image to a docker repository
+docker image push $dockerpath
+
+
+
